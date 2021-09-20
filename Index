@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charse="UTF-8">
+  <tittle> Resposive Navbar</tittle>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="file:///E:/fontawesome/css/all.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+
+
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbutton">
+      <i class="fas fa-bars"></i>
+    </label></input>
+    <label class="logo"><a href="index.html" class="no-underline"><span>Bubs</span>Playdate</a></label>
+    <ul>
+      <li><a class="active" href="index.html">Search</a></li>
+      <li><a class="active" href="login.html">Login</a></li>
+      <li><a class="active" href="about.html">About</a></li>
+    </ul>
+  </nav>
+
+
+  <br>
+  <br>
+  <div class="search">
+    <div class="box">
+      <div>
+        <h2>Find moms bubs suround you!</h2>
+      </div>
+      <br>
+      <form action="/results.html" method="GET">
+        <label for="day"> Suburb </label>
+        <input type="text" placeholder="Type suburb/ postcode" name="Suburb/ Postcode">
+
+
+
+        <label for="day"> Availability </label>
+        <select name="age" id="age" multiple>
+          <option value="Monday">Monday</option>
+          <option value="Tuesday">Tuesday</option>
+          <option value="Wednesday">Wednesday</option>
+          <option value="Thursday">Thursday</option>
+          <option value="Friday">Friday</option>
+          <option value="Saturday">Saturday</option>
+          <option value="Sunday">Sunday</option>
+        </select>
+
+
+
+        <label for="day"> Time </label>
+        <select id="Time">
+          <option value="8 to 10">8am to 10am</option>
+          <option value="10 to 12">10am to 12pm</option>
+          <option value="12 to 14">12pm to 2pm</option>
+          <option value="14 to 16">2pm to 4pm</option>
+          <option value="16 to 18">4pm to 6pm</option>
+
+        </select>
+
+        <label for="gender">Baby gender:</label>
+
+        <select id="gender">
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+
+        </select>
+
+
+
+        <button class="search">Search</button>
+      </form>
+    </div>
+
+
+  </div>
+  </div>
+
+  <br>
+  <br>
+
+  <div class="resultsearch">
+    <h2 class="card"> Find Bubs ... </h2>
+    <br>
+    <div class="pagination">
+      <a href="#">&laquo;</a>
+      <a href="#">1</a>
+      <a href="#" class="active">2</a>
+      <a href="#">3</a>
+      <a href="#">4</a>
+      <a href="#">5</a>
+      <a href="#">6</a>
+      <a href="#">&raquo;</a>
+    </div>
+  </div>
+
+  <div class="margingallery">
+    <div class="gallery">
+      <a target="_blank" href="Mbb.JPEG">
+        <img src="Mbb.JPEG" alt="Cinque Terre" width="400" height="600">
+      </a>
+      <div class="desc">Dad and Me</div>
+      <button class="buttongallery">Message</button>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="bubs3.jpg">
+        <img src="bubs3.jpg" alt="Cinque Terre" width="400" height="600">
+      </a>
+      <div class="desc">Teo and Daddy</div>
+      <button class="buttongallery">Message</button>
+    </div>
+    <div class="gallery">
+      <a target="_blank" href="bubs4.jpg">
+        <img src="bubs4.jpg" alt="Cinque Terre" width="400" height="600">
+      </a>
+      <div class="desc">Charles and Mom</div>
+      <button class="buttongallery">Message</button>
+    </div>
+    <div class="gallery">
+      <a target="_blank" href="bubs2.jpg">
+        <img src="bubs2.jpg" alt="Cinque Terre" width="400" height="600">
+      </a>
+      <div class="desc">George and Mama Mia</div>
+      <button class="buttongallery">Message</button>
+    </div>
+    <div class="gallery">
+      <a target="_blank" href="bubs1.jpg">
+        <img src="bubs1.jpg" alt="Cinque Terre" width="400" height="600">
+      </a>
+      <div class="desc">Josh and Dean</div>
+      <button class="buttongallery">Message</button>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

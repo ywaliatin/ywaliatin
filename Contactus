@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charse="UTF-8">
+  <tittle> login</tittle>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css"> 
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+  
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbutton">
+      <i class="fas fa-bars"></i>
+    </label></input>
+    <label class="logo"><a href="index.html" class="no-underline"><span>Bubs</span>Playdate</a></label>
+    <ul>
+      <li><a class="active" href="index.html">Search</a></li>
+      <li><a class="active" href="login.html">Login</a></li>
+      <li><a class="active" href="about.html">About</a></li>
+    </ul>
+  </nav>
+
+  <h2>Contact Form</h2>
+  
+  
+  <div class="container">
+    <form action="/action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-25">
+        <label for="email">Your email</label>
+      </div>
+      <div class="col-75">
+        <input type="email" id="email" name="email" placeholder="email" required>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-25">
+        <label for="state">State</label>
+      </div>
+      <div class="col-75">
+        <select id="state" name="state">
+          <option value="ACT">ACT</option>
+                <option value="NSW">NSW</option>
+                <option value="NT">NT</option>
+                <option value="QLD">QLD</option>
+                <option value="SA">SA</option>
+                <option value="TAS">TAS</option>
+                <option value="VIC">VIC</option>
+                <option value="WA">WA</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Subject</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input class="submit" type="submit" value="Submit">
+    </div>
+    </form>
+  </div>
+
+
+
+
+
+
+
+</body>
+</html>

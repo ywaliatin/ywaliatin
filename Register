@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<tittle> Login </tittle>
+</head>
+<body>
+
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbutton">
+      <i class="fas fa-bars"></i>
+    </label></input>
+    <label class="logo"><a href="index.html" class="no-underline"><span>Bubs</span>Playdate</a></label>
+    <ul>
+      <li><a class="active" href="index.html">Search</a></li>
+      <li><a class="active" href="login.html">Login</a></li>
+      <li><a class="active" href="about.html">About</a></li>
+    </ul>
+  </nav>
+
+	<center>
+	<h3> Register here</h3>
+	<form action="login.php" method="post">
+	<table>
+	</table>
+	   <tr>
+           <td> Username </td> 
+           <td>
+             <input type="text" name="user">
+           </td>
+           </tr>
+           <br>
+<br>
+	    <tr>
+           <td> Password </td> 
+           <td>
+             <input type="password" name="user_pass">
+           </td>
+           </tr>
+<br>
+<br>
+<tr>
+  <td> Email </td> 
+  <td>
+    <input type="email" name="email">
+  </td>
+  </tr>
+<br>
+<br>
+
+<tr>
+  <td> Suburb </td>>
+  <td>
+  <input type="suburb" name="suburb">
+  </td>
+  </tr>
+<br>
+<br>
+
+<tr>
+  <td> Postcode </td>>
+  <td>
+  <input type="postcode" name="postcode">
+  </td>
+  </tr>
+<br>
+<br>
+
+<tr>
+  <td> Baby Datebirth </td>>
+  <td>
+    <input type="date" name="Datebirth">
+  </td>
+  </tr>
+<br>
+<br>
+<tr>
+  <td> <label for="age"> Baby age </label></td>
+  <td>
+  <input type="number" name="age" id="age" min="0" max="48"required > months
+  </td>  
+  </tr>
+
+
+<label for="gender">Your baby gender:</label>
+
+<select id="gender">
+  <option value="Male">Male</option>
+  <option value="Female">Female</option>
+  
+</select>
+<br>
+<br>
+
+<label for="availability">Availability</label>
+
+<select id="availability">
+  <option value="Monday">Monday</option>
+  <option value="Tuesday">Tuesday</option>
+  <option value="Wednesday">Wednesday</option>
+  <option value="Thursday">Thursday</option>
+  <option value="Friday">Friday</option>
+  <option value="Saturday">Saturday</option>
+  <option value="Sunday">Sunday</option>
+</select>
+<br>
+<br>
+
+<label for="Time">Availability Time:</label>
+
+<select id="Time">
+  <option value="8 to 10">8am to 10am</option>
+  <option value="10 to 12">10am to 12pm</option>
+  <option value="12 to 14">12pm to 2pm</option>
+  <option value="14 to 16">2pm to 4pm</option>
+  <option value="16 to 18">4pm to 6pm</option>
+  
+</select>
+<br>
+<br>
+
+<div>
+  Additional information
+  <div>
+  <label for="comment"> </label>
+  <textarea id="bio" name="bio"></textarea>
+</div>
+</div>
+
+
+ 	   <tr>
+           
+           <td>
+             <input type="submit" name="submit" value="Register">
+           </td>
+	    <td>
+             A member?<a href="login.html"> Login here</a>
+           </td>
+
+           </tr>
+	</center>
+    
+</body>
+</html>
+
